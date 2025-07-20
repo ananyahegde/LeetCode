@@ -1,6 +1,6 @@
 """
 The problem:
-
+    Please read it on leetcode.
 The Solution:
     Same as anagram. You've got a tuple with 26 characters, and number in each index indicates corresponding character's frequency.
     And for s2, you check the characters with same number characters in s1, like a fixed sliding window.
