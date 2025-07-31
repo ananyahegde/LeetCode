@@ -21,7 +21,7 @@ Iterative Approach:
     `Remember two things, two pointers and store curr.next somewhere.`
 
 Recursive approach:
-    The logic is where simple. it's even similar to recursive dfs. if current node is null you just return,
+    The logic is very simple. it's even similar to recursive dfs. if current node is null you just return,
     and if not you just iteratively call the same function. Depending on where you put the print statement,
     it'll either print the list in the correct order (put print before recursive function call) or in the
     reverse order (put print statement after the recursive call)
@@ -83,9 +83,7 @@ def reverse_list(head):
         curr.next = prev
         prev = curr
         curr = temp
-
     return prev
-
 
 new_head = reverse_list(A)
 

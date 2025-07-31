@@ -73,6 +73,7 @@ class Solution:
                 n = i - 1
                 k = min(k, i)
         return k
+
 obj = Solution()
 res = obj.minEatingSpeed([3,6,7,11], 8)
 print(res)
