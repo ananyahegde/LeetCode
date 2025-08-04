@@ -85,5 +85,6 @@ class Solution:
             p2 = temp2
 
         print_list(dummy.next)
+
 x = Solution()
 x.reorderList(A)
